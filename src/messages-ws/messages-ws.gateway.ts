@@ -5,7 +5,7 @@ import { Socket,Server } from 'socket.io';
 import { NewMessageDto } from './dtos/new-message.dto';
 import { JwtPayload } from 'src/auth/interfaces';
 
-@WebSocketGateway({cors: true, namespace: ''})
+@WebSocketGateway({cors: true})
 export class MessagesWsGateway implements OnGatewayConnection, OnGatewayDisconnect{
   
   @WebSocketServer() wss: Server;

@@ -21,3 +21,16 @@ yarn start:dev
 ```
 http://localhost:3000/api/seed
 ```
+
+# Production notes
+
+__Railway__
+1. Crear proyecto en Railway
+2. Crear repositorio en GitHub con la aplicación
+3. Crear base de datos PostgresSQL en proyecto de Railway
+4. Conectar repositorio con proyecto de Railway
+5. Configurar variables de entorno
+6. Desplegar
+
+__Netlify__
+1. Desplegar app de frontend de ws con Vite en Netlify
